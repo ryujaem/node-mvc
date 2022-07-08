@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "bin": {
-    "node_express_api": "bin/www.js"
+    "node_express_api": "/bin/www.js"
   },
   "dependencies": {
     "array-flatten": "^1.1.1",

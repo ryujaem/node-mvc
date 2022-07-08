@@ -9,6 +9,8 @@ const home = require("./src/routes/home"); //경로에 있는 js를 읽어오는
 // 앱 세팅
 app.set("views","./src/views");
 app.set("view engine", "ejs");
+//자바스크립트 사용을 위한 설정
+app.use(express.static(`${__dirname}/src/public`));
 
 app.use("/",home); // use -> 미들웨어를 등록해주는 메서드.
 
